@@ -1,13 +1,9 @@
-body {
-  padding-top: 50px;
-}
-
 /*
  * Masthead for nav
  */
 
 .blog-masthead {
-  background-color: #428bca;
+  background-color: #262626;
   box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
