@@ -5,6 +5,7 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #555;
+  background-color: #efefef;
 }
 
 h1, .h1,
@@ -46,17 +47,17 @@ h6, .h6 {
   display: inline-block;
   padding: 10px;
   font-weight: 700;
-  color: #cdddeb;
+  color: #fff;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #f2f2f2;
+  color: #3fffd5;
   text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-  color: #fff;
+  color: #3fffd5;
 }
 .blog-nav .active:after {
   position: absolute;
@@ -82,7 +83,7 @@ h6, .h6 {
   padding-bottom: 20px;
 }
 .blog-title {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 60px;
@@ -151,6 +152,10 @@ h6, .h6 {
   color: #999;
 }
 
+.tag {
+  color:#999;
+  text-decoration: underline;
+}
 
 
 /*
