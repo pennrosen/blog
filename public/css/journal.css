@@ -172,6 +172,15 @@ hr.styled {
   font-variant:small-caps;
 }
 
+/*
+ * Social Icons
+ */
+
+.social-icons:hover,
+.social-icons:focus {
+    fill: #3fffd5;
+}
+
 
 /*
  * Footer
