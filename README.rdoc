@@ -3,5 +3,3 @@
 The personal site of me, Penn Rosen.
 
 A learning experience!
-
-<tt>tinytype</tt>.
