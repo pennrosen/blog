@@ -207,6 +207,10 @@ hr.styled {
     padding-bottom: 20px;
 }
 
+.social-column li{
+    padding-bottom: 6px;
+}
+
 .blog-footer {
   padding: 10px 0;
   color: #999;

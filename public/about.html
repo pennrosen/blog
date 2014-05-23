@@ -45,6 +45,14 @@
 
     </script>
   <!-- end Google Analytics -->
+  <script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "MyPicture2.jpg";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "MyPicture1.jpg";
+    }
+</script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -87,27 +95,15 @@
 
       </div><!-- /.blog-main -->
 
-  <div class="blog-sidebar col-sm-1 col-sm-offset-1 ">
+       <div class="blog-sidebar col-sm-1 col-sm-offset-1 ">
         <div class="sidebar-module hidden-xs">
-            <ol class="list-unstyled text-center">
-              <li><a href="http://www.twitter.com/pennrosen"><img src="images/icons/twitter_icon.svg" class="social-icons"
-
- alt="twitter" width="64px" target="_blank"></a></li>
-              <li><a href="http://www.instagram.com/pennrosen"><img src="images/icons/instagram_icon.svg" class="social-icons"
-
- alt="instagram" width="64px" target="_blank"></a></li>
-              <li><a href="http://www.last.fm/user/audiography"><img src="images/icons/lastfm_icon.svg" class="social-icons"
-
- alt="last.fm" width="64px" target="_blank"></a></li>
-              <li><a href="http://gist.github.com/pennrosen"><img src="images/icons/github_icon.svg" class="social-icons"
-
- alt="github" width="64px" target="_blank"></a></li>
-              <li><a href="http://www.linkedin.com/in/pennrosen"><img src="images/icons/linkedin_icon.svg" class="social-icons"
-
- alt="linkedin" width="64px" target="_blank"></a></li>
-              <li><a href="mailto:penn.rosen@gmail.com"><img src="images/icons/email_icon.svg" class="social-icons"
-
- alt="email" width="64px" target="_blank"></a></li>
+            <ol class="list-unstyled text-center social-column">
+              <li><a href="http://www.twitter.com/pennrosen"><img src="images/icons/twitter_black.png" onmouseover="hover0(this);" onmouseout="unhover0(this);" alt="twitter" width="64px" target="_blank"></a></li>
+              <li><a href="http://www.instagram.com/pennrosen"><img src="images/icons/instagram_black.png" onmouseover="hover1(this);" onmouseout="unhover1(this);" alt="instagram" width="64px" target="_blank"></a></li>
+              <li><a href="http://www.last.fm/user/audiography"><img src="images/icons/lastfm_black.png" onmouseover="hover2(this);" onmouseout="unhover2(this);" alt="last.fm" width="64px" target="_blank"></a></li>
+              <li><a href="http://www.github.com/pennrosen"><img src="images/icons/github_black.png" onmouseover="hover3(this);" onmouseout="unhover3(this);" alt="github" width="64px" target="_blank"></a></li>
+              <li><a href="http://www.linkedin.com/in/pennrosen"><img src="images/icons/linkedin_black.png" onmouseover="hover4(this);" onmouseout="unhover4(this);" alt="linkedin" width="64px" target="_blank"></a></li>
+              <li><a href="mailto:penn.rosen@gmail.com"><img src="images/icons/email_black.png" onmouseover="hover5(this);" onmouseout="unhover5(this);" alt="email" width="64px" target="_blank"></a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
@@ -116,31 +112,18 @@
 
     </div><!-- /.container -->
     <div class="container social-row hidden-sm hidden-md hidden-lg center-block">
-      <a href="http://www.twitter.com/pennrosen"><img src="images/icons/twitter_icon.svg" class="social-icons"
-
- alt="twitter" width="15%" target="_blank"></a>
-      <a href="http://www.instagram.com/pennrosen"><img src="images/icons/instagram_icon.svg" class="social-icons"
-
- alt="instagram" width="15%" target="_blank"></a>
-      <a href="http://www.last.fm/user/audiography"><img src="images/icons/lastfm_icon.svg" class="social-icons"
-
- alt="last.fm" width="15%" target="_blank"></a>
-      <a href="http://www.github.com/pennrosen"><img src="images/icons/github_icon.svg" class="social-icons"
-
- alt="github" width="15%" target="_blank"></a>
-      <a href="http://www.linkedin.com/in/pennrosen"><img src="images/icons/linkedin_icon.svg" class="social-icons"
-
- alt="linkedin" width="15%" target="_blank"></a>
-      <a href="mailto:penn.rosen@gmail.com"><img src="images/icons/email_icon.svg" class="social-icons"
-
- alt="email" width="15%" target="_blank"></a>
+      <a href="http://www.twitter.com/pennrosen"><img src="images/icons/twitter_black.png" onmouseover="hover0(this);" onmouseout="unhover0(this);" class="social-icons" alt="twitter" width="15%" target="_blank"></a>
+      <a href="http://www.instagram.com/pennrosen"><img src="images/icons/instagram_black.png" onmouseover="hover1(this);" onmouseout="unhover1(this);" class="social-icons" alt="instagram" width="15%" target="_blank"></a>
+      <a href="http://www.last.fm/user/audiography"><img src="images/icons/lastfm_black.png" onmouseover="hover2(this);" onmouseout="unhover2(this);" class="social-icons" alt="last.fm" width="15%" target="_blank"></a>
+      <a href="http://www.github.com/pennrosen"><img src="images/icons/github_black.png" onmouseover="hover3(this);" onmouseout="unhover3(this);" class="social-icons" alt="github" width="15%" target="_blank"></a>
+      <a href="http://www.linkedin.com/in/pennrosen"><img src="images/icons/linkedin_black.png" onmouseover="hover4(this);" onmouseout="unhover4(this);" class="social-icons" alt="linkedin" width="15%" target="_blank"></a>
+      <a href="mailto:penn.rosen@gmail.com"><img src="images/icons/email_black.png" onmouseover="hover5(this);" onmouseout="unhover5(this);" class="social-icons" alt="email" width="15%" target="_blank"></a>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/docs.min.js"></script>
+    <script src="js/blog.js"></script>
   </body>
 </html>
