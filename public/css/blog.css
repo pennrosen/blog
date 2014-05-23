@@ -103,10 +103,18 @@ hr.styled {
   color: #999;
 }
 
-.blog-description a:link {color: #999;text-decoration:none; border-bottom: 1px dotted #3fffd5;}    /* unvisited link */
-.blog-description a:visited {color: #999;text-decoration:none;border-bottom: 1px dotted #3fffd5;} /* visited link */
-.blog-description a:hover {color: #262626;text-decoration:none;border-bottom: 1px dotted #3fffd5;}   /* mouse over link */
-.blog-description a:active {color: #262626;text-decoration:none;border-bottom: 1px dotted #3fffd5;}  /* selected link */
+.dotunder a:link,  
+.dotunder a:visited {
+  color: #999; 
+  text-decoration:none; 
+  border-bottom: 1px dotted #3fffd5;
+}
+.dotunder a:hover,
+.dotunder a:active {
+  color: #262626; 
+  text-decoration:none; 
+  border-bottom: none;
+}  
 
 
 
@@ -169,8 +177,9 @@ hr.styled {
 }
 .tag:hover,
 .tag:focus {
-  color: #3fffd5;
-  text-decoration: none;
+  color: #262626; 
+  text-decoration:none; 
+  border-bottom: none;
 }
 .tag {
   font-size: 12px;
@@ -179,14 +188,15 @@ hr.styled {
   font-variant:small-caps;
 }
 
+
 /*
  * Social Icons
  */
 
-.social-icons:hover,
-.social-icons:focus {
-    fill: #3fffd5;
-}
+.social-icons a:link {text-decoration:none;}
+.social-icons a:visited {text-decoration:none;}
+.social-icons a:hover {text-decoration:none;}
+.social-icons a:active {text-decoration:none;}
 
 
 /*
