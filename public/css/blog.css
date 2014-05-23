@@ -103,6 +103,13 @@ hr.styled {
   color: #999;
 }
 
+.blog-description a:link {color: #999;text-decoration:none; border-bottom: 1px dotted #3fffd5;}    /* unvisited link */
+.blog-description a:visited {color: #999;text-decoration:none;border-bottom: 1px dotted #3fffd5;} /* visited link */
+.blog-description a:hover {color: #262626;text-decoration:none;border-bottom: 1px dotted #3fffd5;}   /* mouse over link */
+.blog-description a:active {color: #262626;text-decoration:none;border-bottom: 1px dotted #3fffd5;}  /* selected link */
+
+
+
 
 /*
  * Main column and sidebar layout
