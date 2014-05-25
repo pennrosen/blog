@@ -198,18 +198,40 @@ hr.styled {
 .social-icons a:hover {text-decoration:none;}
 .social-icons a:active {text-decoration:none;}
 
+/* Column */
 
-/*
- * Footer
- */
+.social-column li{
+    padding-bottom: 6px;
+}
+
+ol.social-column li:hover img.hover-hide,
+ol.social-column li img.hover-show {
+  display: none;
+}
+ 
+ol.social-column li:hover img.hover-show {
+  display: inline;
+}
+
+/* Row */
 
 .social-row {
     padding-bottom: 20px;
 }
 
-.social-column li{
-    padding-bottom: 6px;
+div.social-row span:hover img.hover-hide,
+div.social-row span img.hover-show {
+  display: none;
 }
+ 
+div.social-row span:hover img.hover-show {
+  display: inline;
+}
+
+/*
+ * Footer
+ */
+
 
 .blog-footer {
   padding: 10px 0;
