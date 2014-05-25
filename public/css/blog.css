@@ -215,19 +215,22 @@ ol.social-column li:hover img.hover-show {
 
 /* Row */
 
-.social-row {
+ol.social-row li{
     padding-bottom: 20px;
+    display:inline;
+    list-style-type: none;
 }
+/*
+ol.social-row li a {padding:0 0 0 0;}*/
 
-div.social-row span:hover img.hover-hide,
-div.social-row span img.hover-show {
+ol.social-row li:hover img.hover-hide,
+ol.social-row li img.hover-show {
   display: none;
 }
  
-div.social-row span:hover img.hover-show {
+ol.social-row li:hover img.hover-show {
   display: inline;
 }
-
 /*
  * Footer
  */
