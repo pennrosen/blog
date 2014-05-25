@@ -210,7 +210,7 @@ ol.social-column li img.hover-show {
 }
  
 ol.social-column li:hover img.hover-show {
-  display: inline;
+  display: block;
 }
 
 /* Row */
