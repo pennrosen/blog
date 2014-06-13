@@ -10,7 +10,7 @@ function offhover (cat2) {
         case "first":
             break;
         case "web":
-            angle = angle + (30*6);
+            angle = angle + (-1*30*6);
             chargearray ();
             break;
         case "music":
