@@ -1,9 +1,12 @@
+/*set REM*/
 html {
     font-size: 13px;
-    font-family: "Helvetica Neue", "Josefin Sans", helvetica, arial, sans-serif;
+    font-family: "Josefin Sans", helvetica, arial, sans-serif;
     background: hsl(0, 0%, 98%);
     text-align: center;
 }
+
+/*media queries*/
 @media screen and (min-width: 500px){
   html{
     font-size: 14px;
@@ -59,11 +62,15 @@ html {
     font-size: 24px;
   }
 }
+
+/*for iphone portrait*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
   html{
-    font-size: 24px;
+    font-size: 18px;
   }
 }
+
+/*body styles*/
 section {
     padding: 1rem 10%;
 }
@@ -88,6 +95,8 @@ h3 {
     text-decoration: none;
     border-bottom: 0.05rem dotted #3fffd5;
 }
+
+/*social icons*/
 .circle-container {
     width:10rem;
     height:10rem;
