@@ -102,7 +102,7 @@ a {
     border-bottom: 0.05rem dotted #3fffd5;
 }
 
-/*social icons*/
+/*social icons movement*/
 .circle-container {
     width:10rem;
     height:10rem;
@@ -121,6 +121,8 @@ a {
     transition: all 0.7s ease-in-out;
 }
 
+/*social icons hover effect*/
+/*
 div.circle:hover img.hover-hide,
 div.circle img.hover-show {
   display: none;
@@ -129,7 +131,7 @@ div.circle img.hover-show {
 div.circle:hover img.hover-show {
   display: inline;
 }
-
+*/
 
 
 
