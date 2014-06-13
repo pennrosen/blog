@@ -1,7 +1,7 @@
 /*set REM*/
 html {
     font-size: 13px;
-    font-family: "Josefin Sans", helvetica, arial, sans-serif;
+    font-family: "Raleway", helvetica, arial, sans-serif;
     background: hsl(0, 0%, 98%);
     text-align: center;
 }
@@ -89,9 +89,15 @@ h3 {
     font-size: 1rem;
     margin: 8rem 0rem 1.5rem;
 }
-.web,
-.music,
-.design {
+a {
+  text-decoration: none;
+  color:#252525;
+}
+
+/*interests*/
+#web,
+#music,
+#design {
     text-decoration: none;
     border-bottom: 0.05rem dotted #3fffd5;
 }
@@ -112,7 +118,7 @@ h3 {
     overflow: hidden;
     border-radius: 50% 50%;
     margin-top:-2rem; margin-left:-2rem;
-    transition: all .3s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 div.circle:hover img.hover-hide,
@@ -123,5 +129,7 @@ div.circle img.hover-show {
 div.circle:hover img.hover-show {
   display: inline;
 }
+
+
 
 
