@@ -120,16 +120,16 @@ a {
 }
 
 #web {
-  border-bottom: 0.1rem solid rgb(244, 92, 115);
+  border-bottom: 0.08rem solid rgb(244, 92, 115);
 }
 #music {
-  border-bottom: 0.1rem solid rgb(161, 118, 171);
+  border-bottom: 0.08rem solid rgb(161, 118, 171);
 }
 #design {
-  border-bottom: 0.1rem solid rgb(78, 205, 196);
+  border-bottom: 0.08rem solid rgb(78, 205, 196);
 }
 #email-me a{
-  border-bottom: 0.1rem solid rgb(255, 156, 91);
+  border-bottom: 0.08rem solid rgb(255, 156, 91);
 }
 
 #web:hover {
