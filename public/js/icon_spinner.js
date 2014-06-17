@@ -1,92 +1,62 @@
-var circleArray = document.getElementsByClassName("circle");
+var circleArray = document.getElementsByClassName("circle"); // populates array of data-angles
 var angle = 0;
-var first = "first";
+var current_interest = "current_interest"; 
 
-chargearray();
+spinner();
 offhover();
 
-function offhover (cat2) {
-    switch(cat2) {
-        case "first":
+function offhover (interest) { // this function nullifies movement on multiple mouseovers of the same interest
+    switch(interest) {
+        case "current_interest":
             break;
-        case "web":
-            angle = angle + (-1*30*6);
-            chargearray ();
+        case "web": // interest
+            angle = angle + (-180);
+            spinner ();
             break;
-        case "music":
-            angle = angle + (-1*30*2);
-            chargearray ();
+        case "music": // interest
+            angle = angle + (-60);
+            spinner ();
             break;
-        case "design":
-            angle = angle + (30*2);
-            chargearray ();
+        case "design": // interest
+            angle = angle + (60);
+            spinner ();
             break;        
-
     }
 }
 
-function chargearray () {
+function spinner () { // spins the icon wheel in a circle while maintaining up and down orientation (in a sort of gyroscope effect)
     for (var i = 0, j = circleArray.length; i < j; i++) {
-        var circle = circleArray[i];
-        var circleAngle = parseInt (circle.dataset.angle);
-        var totalAngle = angle + circleAngle
+        var circle = circleArray[i]; // "180"
+        var circleAngle = parseInt (circle.dataset.angle); // 180
+        var totalAngle = angle + circleAngle 
         var style = "rotate(" + totalAngle + "deg) translate(6rem)";
-        totalAngle = - totalAngle;
+        totalAngle =- totalAngle;
         style = style + " rotate(" + totalAngle + "deg)"
         circle.style.webkitTransform = style;
+        circle.style.MozTransform = style;
+        circle.style.msTransform = style;
+        circle.style.OTransform = style;
         circle.style.Transform = style;
     }
 
 }
 
-document.onkeydown = function (e) {
-    e = e || window.event;
-    switch(e.which || e.keyCode) {
-        case 37:
-            angle = angle + 30;
-            chargearray ();
-            break;
-        case 39:
-            angle = angle - 30;
-            chargearray ();
-            break;
-    }
-}
 
-document.onHover = function (cat) {
-    offhover(first);
-    switch(cat) {
-        case "web":
-            angle = angle + (30*6);
-            chargearray ();
+document.onHover = function (interest) {
+    offhover(current_interest);
+    switch(interest) {
+        case "web": // interest
+            angle = angle + (180);
+            spinner ();
             break;
-        case "music":
-            angle = angle + (30*2);
-            chargearray ();
+        case "music": // interest
+            angle = angle + (60);
+            spinner ();
             break;
-        case "design":
-            angle = angle + (-1*30*2);
-            chargearray ();
+        case "design": // interest
+            angle = angle + (-60);
+            spinner ();
             break;        
-
     }
-    first = cat;
+    current_interest = interest;
 }
-
-// document.offHover = function (cat) {
-//     switch(cat) {
-//         case "web":
-//             angle = angle + (30*6);
-//             chargearray ();
-//             break;
-//         case "music":
-//             angle = angle + (-1*30*2);
-//             chargearray ();
-//             break;
-//         case "design":
-//             angle = angle + (30*2);
-//             chargearray ();
-//             break;        
-
-//     }
-// }
