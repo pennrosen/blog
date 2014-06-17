@@ -110,14 +110,27 @@ a {
 
 #web,
 #music,
-#design, 
+#design,
+#email-me, 
 #email-me a{
     text-decoration: none;
-    border-radius:0.2rem;
+    border-radius:0.1rem;
     padding:0.4rem;
     display: inline;
 }
 
+#web {
+  border-bottom: 0.05rem solid rgb(244, 92, 115);
+}
+#music {
+  border-bottom: 0.05rem solid rgb(161, 118, 171);
+}
+#design {
+  border-bottom: 0.05rem solid rgb(78, 205, 196);
+}
+#email-me a{
+  border-bottom: 0.05rem solid rgb(255, 156, 91);
+}
 
 #web:hover {
   color:hsl(0, 0%, 98%);
