@@ -64,8 +64,6 @@ function spinner () { // spins the icon wheel in a circle while maintaining up a
 
 document.onHover = function (currently_hovered_interest) {
     colorswitch(currently_hovered_interest);
-    console.log("last displayed interest: " + last_displayed_interest);
-    console.log("currently hovered interest: " + currently_hovered_interest);
     offhover(last_displayed_interest);
     if (currently_hovered_interest !== "penn-rosen-title") {
         switch(currently_hovered_interest) {
