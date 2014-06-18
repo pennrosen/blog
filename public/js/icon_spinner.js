@@ -16,7 +16,7 @@ function colorswitch (currently_hovered_interest) { // switches
             document.getElementById(foo + "-a-black").classList.remove('hide-img');
             document.getElementById(foo + "-b-black").classList.remove('hide-img');
         }
-        if (currently_hovered_interest !== "email-me"){
+        if (currently_hovered_interest !== "penn-rosen-title"){
             document.getElementById(currently_hovered_interest + "-a-black").classList.toggle('hide-img');
             document.getElementById(currently_hovered_interest + "-a-color").classList.toggle('hide-img');
             document.getElementById(currently_hovered_interest + "-b-black").classList.toggle('hide-img');
@@ -67,7 +67,7 @@ document.onHover = function (currently_hovered_interest) {
     console.log("last displayed interest: " + last_displayed_interest);
     console.log("currently hovered interest: " + currently_hovered_interest);
     offhover(last_displayed_interest);
-    if (currently_hovered_interest !== "email-me") {
+    if (currently_hovered_interest !== "penn-rosen-title") {
         switch(currently_hovered_interest) {
             case "web":
                 angle = angle + (180);
