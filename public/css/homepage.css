@@ -2,7 +2,7 @@
 html {
     font-size: 13px;
     font-family: "Lato", helvetica, arial, sans-serif;
-    background: hsl(0, 0%, 98%);
+    background: #FAFAFA;
     text-align: center;
     color:#252525;
 }
@@ -100,15 +100,6 @@ a {
 
 /*divs*/
 
-/*#penn-rosen {
-  color:hsl(0, 0%, 98%);
-  background-color: rgb(168, 167, 167);
-  text-decoration: none;
-  border-radius:0.2rem;
-  padding:0.5rem;
-  display: inline;
-}*/
-
 #web,
 #music,
 #design,
@@ -121,33 +112,33 @@ a {
 }
 
 #web {
-  border-bottom: 0.08rem solid rgb(244, 92, 115);
+  border-bottom: 0.08rem solid #F45C73;
 }
 #design {
-  border-bottom: 0.08rem solid rgb(161, 118, 171);
+  border-bottom: 0.08rem solid #A176AB;
 }
 #music {
-  border-bottom: 0.08rem solid rgb(78, 205, 196);
+  border-bottom: 0.08rem solid #4ECDC4;
 }
 #email-me a{
-  border-bottom: 0.08rem solid rgb(255, 156, 91);
+  border-bottom: 0.08rem solid #FF9C5B;
 }
 
 #web:hover {
   color:hsl(0, 0%, 98%);
-  background-color:rgb(244, 92, 115);
+  background-color:#F45C73;
 }
 #design:hover {
   color:hsl(0, 0%, 98%);
-  background-color:rgb(161, 118, 171);
+  background-color:#A176AB;
 }
 #music:hover {
   color:hsl(0, 0%, 98%);
-  background-color:rgb(78, 205, 196);
+  background-color:#4ECDC4;
 }
 #email-me a:hover {
   color:hsl(0, 0%, 98%);
-  background-color:rgb(255, 156, 91);
+  background-color:#FF9C5B;
 }
 
 /*social icons movement*/
@@ -169,17 +160,11 @@ a {
     transition: all 0.7s ease-in-out;
 }
 
-/*social icons hover effect*/
-/*
-div.circle:hover img.hover-hide,
-div.circle img.hover-show {
-  display: none;
-}
- 
-div.circle:hover img.hover-show {
+/*social icons color switch effect*/
+div.circle img {
   display: inline;
 }
-*/
 
-
-
+div.circle img.hide-img {
+  display: none;
+}
