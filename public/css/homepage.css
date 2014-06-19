@@ -135,19 +135,23 @@ a {
 }
 
 #web:hover {
-  color:hsl(0, 0%, 98%);
+  color:#fafafa;
+  font-weight: 300;
   background-color:#F45C73;
 }
 #design:hover {
-  color:hsl(0, 0%, 98%);
+  color:#fafafa;
+  font-weight: 300;
   background-color:#A176AB;
 }
 #music:hover {
-  color:hsl(0, 0%, 98%);
+  color:#fafafa;
+  font-weight: 300;
   background-color:#4ECDC4;
 }
 #email-me a:hover {
-  color:hsl(0, 0%, 98%);
+  color:#fafafa;
+  font-weight: 300;
   background-color:#FF9C5B;
 }
 
