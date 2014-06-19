@@ -2,7 +2,7 @@
 html {
     font-size: 13px;
     font-family: "Lato", helvetica, arial, sans-serif;
-    background: #FAFAFA;
+    background: #fff;
     text-align: center;
     color:#252525;
 }
@@ -81,7 +81,7 @@ h1, h2, h3{
 h1 {
     font-size: 2.4rem;
     margin: 0.5rem 0 1rem;
-    font-weight:300;
+    font-weight:100;
 }
 h2 {
     font-size: 1.4rem; 
@@ -99,6 +99,15 @@ a {
 }
 
 /*divs*/
+
+/*#penn-rosen-title {
+  color:hsl(0, 0%, 98%);
+  background-color: #282828;
+  text-decoration: none;
+  border-radius:0.2rem;
+  padding:0.5rem;
+  display: inline;
+}*/
 
 #web,
 #music,
