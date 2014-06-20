@@ -1,0 +1,90 @@
+/*set REM*/
+html {
+    font-size: 13px;
+    font-family: "Lato", helvetica, arial, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+    color:#252525;
+    text-shadow:.02rem .02rem #282828;
+}
+
+/*media queries*/
+@media screen and (min-width: 500px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 570px){
+  html{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 620px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 680px){
+  html{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 720px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 800px){
+  html{
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 860px){
+  html{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 920px){
+  html{
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1060px){
+  html{
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 1120px){
+  html{
+    font-size: 24px;
+  }
+}
+
+/*for iphone portrait*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+  html{
+    font-size: 14px;
+  }
+}
+
+/*stylin'*/
+
+div{
+  padding:4rem;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
+p.nope{
+  font-size: 4rem;
+}
+p.error{
+  font-size: 2rem;
+}
