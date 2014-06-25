@@ -168,8 +168,8 @@ a {
     height: 4rem;
     display: block;
     position: absolute;
-    overflow: hidden;
-    border-radius: 50% 50%;
+    overflow: hidden;/*
+    border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
     transition: all 0.7s ease-in-out;
 }
