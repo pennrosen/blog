@@ -244,3 +244,36 @@ ol.social-row li:hover img.hover-show {
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
 }
+
+
+/* portfolio styles */
+
+.email-focus {
+  color:#000000; 
+  text-decoration:none; /*
+  border-bottom: 1px dotted #3fffd5;*/
+}
+
+.portfolio_category {
+  padding-top:2rem;
+}
+
+.img_wrapper {
+  overflow:hidden;
+  height:24rem;
+  width:100%;
+}
+
+.email_wrapper {
+  overflow:hidden;
+  padding-bottom:2rem;
+  height:100%;
+  width:100%;
+}
+
+.graphic_wrapper {
+  overflow:hidden;
+  padding-bottom:2rem;
+  height:100%;
+  width:100%;
+}
