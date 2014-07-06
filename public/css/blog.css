@@ -60,13 +60,13 @@ hr.styled {
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #3fffd5;
+  color: #A176AB;
   text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-  color: #3fffd5;
+  color: #A176AB;
 }
 .blog-nav .active:after {
   color: #efefef;
@@ -108,7 +108,7 @@ hr.styled {
 .dotunder a:visited {
   color: #999; 
   text-decoration:none; 
-  border-bottom: 1px dotted #3fffd5;
+  border-bottom: 1px dotted #A176AB;
 }
 .dotunder a:hover,
 .dotunder a:active {
@@ -185,7 +185,7 @@ hr.styled {
 .tag {
   font-size: 12px;
   color:#999;
-  border-bottom: 1px dotted #3fffd5;
+  border-bottom: 1px dotted #A176AB;
   font-variant:small-caps;
 }
 
@@ -251,7 +251,7 @@ ol.social-row li:hover img.hover-show {
 .email-focus {
   color:#000000; 
   text-decoration:none; /*
-  border-bottom: 1px dotted #3fffd5;*/
+  border-bottom: 1px dotted #A176AB;*/
 }
 
 .portfolio_category {
