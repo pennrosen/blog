@@ -97,7 +97,7 @@ hr.styled {
 }
 .blog-title {
   font-family: 'Lato', sans-serif;
-  text-shadow:0.1rem 0.1rem #191919;
+  text-shadow:0.07rem 0.07rem #191919;
   font-weight: 300; 
   margin-top: 30px;
   margin-bottom: 0;
@@ -122,8 +122,6 @@ hr.styled {
   text-decoration:none; 
   border-bottom: none;
 }  
-
-
 
 
 /*
@@ -314,7 +312,7 @@ ol.social-row li:hover img.hover-show {
 
 .jumbo-title {
   font-family: 'Lato', sans-serif;
-  text-shadow:0.1rem 0.1rem #191919;
+  text-shadow:0.07rem 0.07rem #191919;
   font-weight: 300; 
   font-size: 60px;
   text-transform: uppercase;
