@@ -97,13 +97,13 @@ hr.styled {
 }
 .blog-title {
   font-family: 'Lato', sans-serif;
-  text-shadow:.15rem .15rem #3399cc;
+  text-shadow:0.1rem 0.1rem #191919;
   font-weight: 300; 
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 60px;
   text-transform: uppercase;
-  color:#191919;
+  color:#336699;
 }
 .blog-description {
   font-size: 20px;
@@ -175,12 +175,12 @@ hr.styled {
 }
 .blog-post-title {
   font-family: 'Lato', sans-serif;
-  text-shadow:.1rem .1rem #3399cc;
+  text-shadow:0.05rem 0.05rem #191919;
   font-weight:300;
   margin-bottom: 10px;
   font-size: 28px;
   text-transform:uppercase;
-  color:#191919;
+  color:#336699;
 }
 .blog-post-meta {
   margin-bottom: 20px;
@@ -270,8 +270,9 @@ ol.social-row li:hover img.hover-show {
 
 .inset-title {
   font-family: 'Lato', sans-serif;
-text-shadow:.1rem .1rem #3399cc;
+  text-shadow:0.05rem 0.05rem #191919;
   font-weight:300;  
+  color:#336699;
 }
 
 /* portfolio styles */
@@ -286,7 +287,8 @@ text-shadow:.1rem .1rem #3399cc;
   padding-top:2rem;
   font-family:'Lato', sans-serif;
   font-weight:600;
-  text-shadow:.1rem .1rem #3399cc;
+  text-shadow:0.05rem 0.05rem #191919;
+  color: #336699;
   text-transform: uppercase;
 }
 
@@ -312,9 +314,9 @@ text-shadow:.1rem .1rem #3399cc;
 
 .jumbo-title {
   font-family: 'Lato', sans-serif;
-  text-shadow:.15rem .15rem #3399cc;
+  text-shadow:0.1rem 0.1rem #191919;
   font-weight: 300; 
   font-size: 60px;
   text-transform: uppercase;
-  color:#191919;
+  color:#336699;
 }
