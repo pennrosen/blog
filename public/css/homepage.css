@@ -169,6 +169,8 @@ a {
     display: block;
     position: absolute;
     overflow: hidden;
+    background-color:#333333;
+    color:#f2f2f2;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
     transition: all 0.7s ease-in-out;
