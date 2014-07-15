@@ -153,10 +153,10 @@ a {
     display: block;
     position: relative;
     top: 8rem; left: 50%;
-    animation: fadein 1s ease 3s 1 none normal;
-    -moz-animation: fadein 1s ease 3s 1 none normal;
-    -webkit-animation: fadein 1s ease 3s 1 none normal;
-    -o-animation: fadein 1s ease 3s 1 none normal;
+    animation: fadein 1s ease;
+    -moz-animation: fadein 1s ease;
+    -webkit-animation: fadein 1s ease;
+    -o-animation: fadein 1s ease;
     
 }
 .circle {
@@ -167,10 +167,10 @@ a {
     overflow: hidden;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 /*social icons color switch effect*/
@@ -185,10 +185,10 @@ div.circle img.hide-img {
 /*fade in homepage at start*/
 
 #copy-fade {
-    -webkit-animation: fadein 1s ease 1s 1 none normal;
-    -moz-animation: fadein 1s ease 1s 1 none normal;
-    -o-animation: fadein 1s ease 1s 1 none normal;
-    animation: fadein 1s ease 1s 1 none normal;
+    -webkit-animation: fadein 1s ease;
+    -moz-animation: fadein 1s ease;
+    -o-animation: fadein 1s ease;
+    animation: fadein 1s ease;
 }
 
 /*define fadein*/
