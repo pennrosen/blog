@@ -200,22 +200,18 @@ div.circle img.hide-img {
 }
 
 @-webkit-keyframes fadein {
-    0% { opacity:0;}
-    50% { opacity:0.3;}
+    0%, 90% { opacity:0;}
     100% { opacity:1;}
 }
 @-moz-keyframes fadein { 
-    0% { opacity:0;}
-    50% { opacity:0.3;}
+    0%, 90% { opacity:0;}
     100% { opacity:1;}
 }
 @-o-keyframes fadein {
-    0% { opacity:0;}
-    50% { opacity:0.3;}
+    0%, 90% { opacity:0;}
     100% { opacity:1;}
 }
 @keyframes fadein {
-    0% { opacity:0;}
-    50% { opacity:0.3;}
+    0%, 90% { opacity:0;}
     100% { opacity:1;}
 }
