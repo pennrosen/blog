@@ -207,7 +207,7 @@ div.circle img.hide-img {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-webkit-keyframes fadein { /* Safari and Chrome */
     from {
         opacity:0;
     }
@@ -215,7 +215,7 @@ div.circle img.hide-img {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-moz-keyframes fadein { /* Firefox */
     from {
         opacity:0;
     }
