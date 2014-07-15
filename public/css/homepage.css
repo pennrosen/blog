@@ -153,11 +153,10 @@ a {
     display: block;
     position: relative;
     top: 8rem; left: 50%;
-    animation: fadein 1s ease;
-    -moz-animation: fadein 1s ease;
-    -webkit-animation: fadein 1s ease;
-    -o-animation: fadein 1s ease;
-    
+    -webkit-animation: fadein 1s ease-in;
+    -moz-animation: fadein 1s ease-in;
+    -o-animation: fadein 1s ease-in;
+    animation: fadein 1s ease-in;
 }
 .circle {
     width: 4.3rem;
@@ -167,10 +166,10 @@ a {
     overflow: hidden;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
 }
 
 /*social icons color switch effect*/
@@ -185,10 +184,10 @@ div.circle img.hide-img {
 /*fade in homepage at start*/
 
 #copy-fade {
-    -webkit-animation: fadein 1s ease;
-    -moz-animation: fadein 1s ease;
-    -o-animation: fadein 1s ease;
-    animation: fadein 1s ease;
+    -webkit-animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+    animation: fadein 0.5s;
 }
 
 /*define fadein*/
@@ -209,3 +208,10 @@ div.circle img.hide-img {
     100% { opacity:1;}
 }
 
+/*prevent transitions from triggering until page loads(longest fadein animation is 2.5s for social icons)*/
+/*#pause-transitions * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}*/

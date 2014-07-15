@@ -8,6 +8,7 @@ var foo = "foo";
 
 //functions
 function colorswitch (currently_hovered_interest) { // switches 
+    
     if (last_displayed_interest !== currently_hovered_interest) {
         for (i = 0; i < 3; i++) { 
             foo = (i == 0 ? interests[0] : (i == 1 ? interests[1] : interests[2])); // nested ternary, just for kicks :)
