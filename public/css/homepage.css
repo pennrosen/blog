@@ -167,10 +167,10 @@ a {
     overflow: hidden;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
-    -webkit-transition: all 0.7s ease-in-out 1s;
-    -moz-transition: all 0.7s ease-in-out 1s;
-    -o-transition: all 0.7s ease-in-out 1s;
-    transition: all 0.7s ease-in-out 1s;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 /*social icons color switch effect*/
