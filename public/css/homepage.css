@@ -156,12 +156,16 @@ a {
 }
 
 /*social icons movement*/
-.circle-container {
+#circle-container {
     width:10rem;
     height:10rem;
     display: block;
     position: relative;
     top: 8rem; left: 50%;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
 }
 .circle {
     width: 4.3rem;
@@ -171,6 +175,9 @@ a {
     overflow: hidden;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
 }
 
@@ -185,11 +192,11 @@ div.circle img.hide-img {
 
 /*fade in homepage at start*/
 
-#section-fade {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+#copy-fade {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
