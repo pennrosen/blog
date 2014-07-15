@@ -199,35 +199,23 @@ div.circle img.hide-img {
     animation: fadein 1s;
 }
 
+@-webkit-keyframes fadein {
+    0% { opacity:0;}
+    50% { opacity:0.3;}
+    100% { opacity:1;}
+}
+@-moz-keyframes fadein { 
+    0% { opacity:0;}
+    50% { opacity:0.3;}
+    100% { opacity:1;}
+}
+@-o-keyframes fadein {
+    0% { opacity:0;}
+    50% { opacity:0.3;}
+    100% { opacity:1;}
+}
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+    0% { opacity:0;}
+    50% { opacity:0.3;}
+    100% { opacity:1;}
 }
