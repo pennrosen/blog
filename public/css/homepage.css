@@ -153,10 +153,10 @@ a {
     display: block;
     position: relative;
     top: 8rem; left: 50%;
-    animation: fadein 1s ease 3s;
-    -moz-animation: fadein 1s ease 3s;
-    -webkit-animation: fadein 1s ease 3s;
-    -o-animation: fadein 1s ease 3s;
+    animation: fadein 1s ease 3s 1 none normal;
+    -moz-animation: fadein 1s ease 3s 1 none normal;
+    -webkit-animation: fadein 1s ease 3s 1 none normal;
+    -o-animation: fadein 1s ease 3s 1 none normal;
     
 }
 .circle {
@@ -185,10 +185,10 @@ div.circle img.hide-img {
 /*fade in homepage at start*/
 
 #copy-fade {
-    -webkit-animation: fadein 1s ease 1s;
-    -moz-animation: fadein 1s ease 1s;
-    -o-animation: fadein 1s ease 1s;
-    animation: fadein 1s ease 1s;
+    -webkit-animation: fadein 1s ease 1s 1 none normal;
+    -moz-animation: fadein 1s ease 1s 1 none normal;
+    -o-animation: fadein 1s ease 1s 1 none normal;
+    animation: fadein 1s ease 1s 1 none normal;
 }
 
 /*define fadein*/
