@@ -101,15 +101,6 @@ a {
 
 /*divs*/
 
-/*#penn-rosen-title {
-  color:hsl(0, 0%, 98%);
-  background-color: #282828;
-  text-decoration: none;
-  border-radius:0.2rem;
-  padding:0.5rem;
-  display: inline;
-}*/
-
 #web,
 #music,
 #design,
@@ -162,10 +153,11 @@ a {
     display: block;
     position: relative;
     top: 8rem; left: 50%;
-    animation: fadein 3s;
-    -moz-animation: fadein 3s;
-    -webkit-animation: fadein 3s;
-    -o-animation: fadein 3s;
+    animation: fadein 1s ease 3s;
+    -moz-animation: fadein 1s ease 3s;
+    -webkit-animation: fadein 1s ease 3s;
+    -o-animation: fadein 1s ease 3s;
+    
 }
 .circle {
     width: 4.3rem;
@@ -175,10 +167,10 @@ a {
     overflow: hidden;
     /*border-radius: 50% 50%;*/
     margin-top:-2rem; margin-left:-2rem;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out 1s;
+    -moz-transition: all 0.7s ease-in-out 1s;
+    -o-transition: all 0.7s ease-in-out 1s;
+    transition: all 0.7s ease-in-out 1s;
 }
 
 /*social icons color switch effect*/
@@ -193,25 +185,27 @@ div.circle img.hide-img {
 /*fade in homepage at start*/
 
 #copy-fade {
-    -webkit-animation: fadein 1s;
-    -moz-animation: fadein 1s;
-    -o-animation: fadein 1s;
-    animation: fadein 1s;
+    -webkit-animation: fadein 1s ease 1s;
+    -moz-animation: fadein 1s ease 1s;
+    -o-animation: fadein 1s ease 1s;
+    animation: fadein 1s ease 1s;
 }
 
+/*define fadein*/
 @-webkit-keyframes fadein {
-    0%, 90% { opacity:0;}
+    0% { opacity:0;}
     100% { opacity:1;}
 }
 @-moz-keyframes fadein { 
-    0%, 90% { opacity:0;}
+    0% { opacity:0;}
     100% { opacity:1;}
 }
 @-o-keyframes fadein {
-    0%, 90% { opacity:0;}
+    0% { opacity:0;}
     100% { opacity:1;}
 }
 @keyframes fadein {
-    0%, 90% { opacity:0;}
+    0% { opacity:0;}
     100% { opacity:1;}
 }
+
