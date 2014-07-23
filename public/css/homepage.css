@@ -72,6 +72,15 @@ html {
   }
 }
 
+/*for ipad portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  html{
+    font-size: 14px;
+  }
+}
+
+
+
 /*body styles*/
 section {
     padding: 1rem 10%;
