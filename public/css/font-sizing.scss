@@ -1,0 +1,27 @@
+/*set REM*/
+html {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+/*media queries*/
+@for $num from 12 through 48 {
+  @media screen and (min-width: #{$num * 25}px){
+    html{ font-size: #{$num * 1.8}px; }
+  }
+}
+
+/*for iphone portrait*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+  html{
+    font-size: 14px;
+  }
+}
+
+/*for ipad portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  html{
+    font-size: 28px;
+  }
+}
