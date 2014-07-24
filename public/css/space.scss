@@ -84,26 +84,26 @@ ul { list-style:none; }
 
 /* slideshow animation keyframes */
 @-webkit-keyframes imageAnimation { 
-    0% { @include opacity(0); -webkit-animation-timing-function: ease-in; }
-    5% { @include opacity(1); -webkit-animation-timing-function: ease-out; }
-    11% { @include opacity(1); }
-    16%, 100% { @include opacity(0); }
+    0% { @include opacity(0); -webkit-animation-timing-function: ease-in; }  // 0% opacity
+    8% { @include opacity(1); -webkit-animation-timing-function: ease-out; } // ($num-of-imgs / ($num-of-imgs * $delay-time) opacity
+    17% { @include opacity(1); }                                             // add same number to opacity as previous frame
+    25%, 100% { @include opacity(0); }                                       // add same number to opacity as previous frame
 }
 @-moz-keyframes imageAnimation { 
     0% { @include opacity(0); -moz-animation-timing-function: ease-in; }
-    5% { @include opacity(1); -moz-animation-timing-function: ease-out; }
-    11% { @include opacity(1); }
-    16%, 100% { @include opacity(0); }
+    8% { @include opacity(1); -moz-animation-timing-function: ease-out; }
+    17% { @include opacity(1); }
+    25%, 100% { @include opacity(0); }
 }
 @-o-keyframes imageAnimation { 
     0% { @include opacity(0); -o-animation-timing-function: ease-in; }
-    5% { @include opacity(1); -o-animation-timing-function: ease-out; }
-    11% { @include opacity(1); }
-    16%, 100% { @include opacity(0); }
+    8% { @include opacity(1); -o-animation-timing-function: ease-out; }
+    17% { @include opacity(1); }
+    25%, 100% { @include opacity(0); }
 }
 @keyframes imageAnimation { 
     0% { @include opacity(0); animation-timing-function: ease-in; }
-    5% { @include opacity(1); animation-timing-function: ease-out; }
-    11% { @include opacity(1); }
-    16%, 100% { @include opacity(0); }
+    8% { @include opacity(1); animation-timing-function: ease-out; }
+    17% { @include opacity(1); }
+    25%, 100% { @include opacity(0); }
 }
