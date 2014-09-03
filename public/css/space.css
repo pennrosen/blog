@@ -21,14 +21,16 @@ ul {
   content: '';
   display: inline-block;
   height: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin-right: -0.25em; }
 
 #copy {
-  height: 15%;
-  width: 95%;
+  height: 50%;
+  width: 50%;
   display: inline-block;
   vertical-align: middle;
   font-family: 'Arial Black', Arial, sans-serif;
+  font-weight: bold;
   color: #252525; }
 
 /*  img positioning */
@@ -149,16 +151,16 @@ ul {
     filter: alpha(opacity=0);
     -webkit-animation-timing-function: ease-in; }
 
-  5% {
+  8% {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-animation-timing-function: ease-out; }
 
-  11% {
+  17% {
     opacity: 1;
     filter: alpha(opacity=100); }
 
-  16%, 100% {
+  25%, 100% {
     opacity: 0;
     filter: alpha(opacity=0); } }
 @-moz-keyframes imageAnimation {
@@ -167,16 +169,16 @@ ul {
     filter: alpha(opacity=0);
     -moz-animation-timing-function: ease-in; }
 
-  5% {
+  8% {
     opacity: 1;
     filter: alpha(opacity=100);
     -moz-animation-timing-function: ease-out; }
 
-  11% {
+  17% {
     opacity: 1;
     filter: alpha(opacity=100); }
 
-  16%, 100% {
+  25%, 100% {
     opacity: 0;
     filter: alpha(opacity=0); } }
 @-o-keyframes imageAnimation {
@@ -185,16 +187,16 @@ ul {
     filter: alpha(opacity=0);
     -o-animation-timing-function: ease-in; }
 
-  5% {
+  8% {
     opacity: 1;
     filter: alpha(opacity=100);
     -o-animation-timing-function: ease-out; }
 
-  11% {
+  17% {
     opacity: 1;
     filter: alpha(opacity=100); }
 
-  16%, 100% {
+  25%, 100% {
     opacity: 0;
     filter: alpha(opacity=0); } }
 @keyframes imageAnimation {
@@ -203,15 +205,15 @@ ul {
     filter: alpha(opacity=0);
     animation-timing-function: ease-in; }
 
-  5% {
+  8% {
     opacity: 1;
     filter: alpha(opacity=100);
     animation-timing-function: ease-out; }
 
-  11% {
+  17% {
     opacity: 1;
     filter: alpha(opacity=100); }
 
-  16%, 100% {
+  25%, 100% {
     opacity: 0;
     filter: alpha(opacity=0); } }
