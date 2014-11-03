@@ -1,5 +1,3 @@
 == Penn Rosen Dot Com
 
 The personal site of me, Penn Rosen.
-
-A learning experience!
